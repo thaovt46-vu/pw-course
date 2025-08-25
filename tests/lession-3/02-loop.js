@@ -26,22 +26,22 @@ for (let i = 1; i <= 10; i++) {
 }
 
 //Tính tổng doanh thu của 12 tháng trong năm dựa trên mảng doanh thu đã cho
-const income=[
-    {"month": 1, "total": 100},
-    {"month": 2, "total": 120},
-    {"month": 3, "total": 140},
-    {"month": 4, "total": 150},
-    {"month": 5, "total": 170},
-    {"month": 6, "total": 180},
-    {"month": 7, "total": 200},
-    {"month": 8, "total": 310},
-    {"month": 9, "total": 330},
-    {"month": 10, "total": 350},
-    {"month": 11, "total": 400},
-    {"month": 12, "total": 500},
+const income = [
+    { "month": 1, "total": 100 },
+    { "month": 2, "total": 120 },
+    { "month": 3, "total": 140 },
+    { "month": 4, "total": 150 },
+    { "month": 5, "total": 170 },
+    { "month": 6, "total": 180 },
+    { "month": 7, "total": 200 },
+    { "month": 8, "total": 310 },
+    { "month": 9, "total": 330 },
+    { "month": 10, "total": 350 },
+    { "month": 11, "total": 400 },
+    { "month": 12, "total": 500 },
 ];
-let totalIncome=0;
-for(let i=0;i<income.length;i++){
-totalIncome+=income[i].total;
+let totalIncome = 0;
+for (let i = 0; i < income.length; i++) {
+    totalIncome += income[i].total;
 }
 console.log(totalIncome);
