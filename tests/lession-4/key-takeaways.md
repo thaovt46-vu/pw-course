@@ -18,7 +18,8 @@
 -   for ... of: Lặp qua các giá trị của object, mảng
 -   forEach: Lặp qua mỗi phần tử trong mảng
 
-4.  Util function 4.1 String util function
+5.  Util function 
+5.1 String util function
 
 -   trim(): loại bỏ ký tự trắng ở đầu và cuối
 -   toLowerCase() và toUpperCase(): Viết hoa or viết thường chuỗi
@@ -28,7 +29,7 @@
 -   substring(): return 1 phần chuỗi dựa trên 2 chỉ số bắt đầu và kết thúc
 -   indexOf(): Trả ra vị trí đầu tiên giá trị xuất hiện trong String or Array
 
-4.2 Array util function 
+5.2 Array util function 
 - map: Tạo mảng mới bằng cách biến đổi từng phần tử 
 - filter: Trả về mảng mới chứa các phần tử thỏa mãn điều kiện 
 - find: Trả về phần tử đầu tiên thoả điều kiện (không phải mảng) 
@@ -38,3 +39,4 @@
 - push: Thêm phần tử vào cuối mảng. Thay đổi mảng gốc 
 - shift: Lấy và xóa phần tử đầu tiên trong mảng 
 - sort: Sắp xếp mảng
+
