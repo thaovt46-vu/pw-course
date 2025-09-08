@@ -19,6 +19,7 @@ test('Todo Page', async ({ page }) => {
     await test.step('Delete odd todos', async () => {
         for (let i = 1; i <= 100; i += 2) {
             await page.click('//button[text()="Delete"]');
+            //await page.locator(`//button[@id="${i}-delete"]`).click(); tại sao viết như này không chạy
         }
     });
 });
