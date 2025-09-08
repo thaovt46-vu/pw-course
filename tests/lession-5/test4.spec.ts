@@ -15,11 +15,9 @@ test('Personal Page', async ({ page }) => {
     for (let i = 0; i < max; i++) {
         const title = await page.locator(`(//article[contains(@class,"item-news")]//h3[contains(@class,"title-news")]/a)[${i+1}]`).innerText();
         const summary = await page.locator(`(//article[contains(@class,"item-news")]//p[contains(@class,"description")]/a)[${i+1}]`).innerText();
-
         notes.push({ title, summary });
-        console.log(notes);
+       
     }
-    console.log(notes);
 
     await test.step('Go to material.playwrightvn.com', async () => {
         await page.goto('https://material.playwrightvn.com/');
